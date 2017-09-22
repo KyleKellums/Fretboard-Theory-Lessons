@@ -8,15 +8,13 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace Fretboard_Theory_Course.Models
 {
-    public class User
+    public class Resources_2
     {
         [Key]
-        public int UserId { get; set; }
+        public string ResourcesId { get; set; }
 
-        public string FirstName { get; set; }
-        
-        public string LastName { get; set; }
+        public string ResourceType { get; set; }
 
-        public string CourseLevel { get; set; }
+        public List<string> Images { get; set; }
     }
 }

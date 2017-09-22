@@ -13,7 +13,7 @@ namespace Fretboard_Theory_Course.Models
         [Key]
         public int ImageId { get; set; }
         public string Path { get; set; }
-        public int FoundationsId { get; set; }    
+        public int IntermediateId { get; set; }    
         public Intermediate Intermediate { get; set; }
     }
 }

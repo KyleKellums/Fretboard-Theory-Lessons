@@ -12,9 +12,7 @@ namespace Fretboard_Theory_Course.Models
     {
         [Key]
         public int IntermediateId { get; set; }
-
         public string LessonName { get; set; }
-
-        public List<string> Images { get; set; }    
+        public virtual List<IntermediateImages> Images { get; set; }
     }
 }

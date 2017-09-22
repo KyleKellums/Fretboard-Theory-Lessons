@@ -11,10 +11,8 @@ namespace Fretboard_Theory_Course.Models
     public class Resources
     {
         [Key]
-        public string ResourcesId { get; set; }
-
+        public int ResourcesId { get; set; }
         public string ResourceType { get; set; }
-
-        public List<string> Images { get; set; }    
+        public virtual List<ResourcesImages> Images { get; set; }
     }
 }
