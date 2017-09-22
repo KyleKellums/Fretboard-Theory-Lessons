@@ -3,7 +3,6 @@
 /Users/Kyle/workspace/Back_End_Capstone/Fretboard_Theory_Course/bin/Debug/netcoreapp1.1/Fretboard_Theory_Course.runtimeconfig.dev.json
 /Users/Kyle/workspace/Back_End_Capstone/Fretboard_Theory_Course/obj/Debug/netcoreapp1.1/UserSecretsAssemblyInfo.cs
 /Users/Kyle/workspace/Back_End_Capstone/Fretboard_Theory_Course/obj/Debug/netcoreapp1.1/Fretboard_Theory_Course.AssemblyInfo.cs
-/Users/Kyle/workspace/Back_End_Capstone/Fretboard_Theory_Course/bin/Debug/netcoreapp1.1/Fretboard_Theory_Course.db
 /Users/Kyle/workspace/Back_End_Capstone/Fretboard_Theory_Course/bin/Debug/netcoreapp1.1/Fretboard_Theory_Course.dll
 /Users/Kyle/workspace/Back_End_Capstone/Fretboard_Theory_Course/bin/Debug/netcoreapp1.1/Fretboard_Theory_Course.pdb
 /Users/Kyle/workspace/Back_End_Capstone/Fretboard_Theory_Course/obj/Debug/netcoreapp1.1/Fretboard_Theory_Course.dll

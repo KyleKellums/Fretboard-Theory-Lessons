@@ -74,6 +74,7 @@ namespace Fretboard_Theory_Course
             app.UseStaticFiles();
 
             app.UseIdentity();
+            DbInitializer.Initialize(app.ApplicationServices);
 
             // Add external authentication middleware below. To configure them please see https://go.microsoft.com/fwlink/?LinkID=532715
 

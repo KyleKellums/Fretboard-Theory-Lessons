@@ -1,0 +1,33 @@
+@model Fretboard_Theory_Course.Models.Advanced
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Advanced</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LessonName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LessonName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Images)
+        </dt>
+            @foreach (var item in Model.Images)   
+            {
+                <tr>
+                    <img src="@item.Path" alt="cool image goes here"/>
+                </tr>
+            }     
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.AdvancedId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
